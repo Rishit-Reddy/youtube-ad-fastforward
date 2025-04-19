@@ -1,0 +1,18 @@
+# Ignore node_modules folder if added in the future
+node_modules/
+
+# Ignore temporary files created by the system or editor
+.DS_Store
+*.swp
+*.swo
+
+# Ignore Chrome extension packaging files
+*.crx
+*.pem
+
+# Ignore logs
+*.log
+
+# Ignore build artifacts if any
+/dist/
+/build/

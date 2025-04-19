@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Ad Skipper Fast Forward",
+    "version": "1.0",
+    "description": "Skips ads by fast forwarding them to 14.0 speed, while keeping the video at normal speed during content playback.",
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ]
+  }
+  
